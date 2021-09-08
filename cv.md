@@ -49,3 +49,7 @@
   </body>
 </html>
 ```
+6. As I mentioned above, I have no work experience, but I successfully completed the course ["JavaScript - Starter"](https://itvdn.com/ru/video/javascript-starter) on the platform with a certificate and a grade of 900/1000 and RSSchool JS/FE Pre-School.
+7. In 2018, I graduated from _Vitebsk State Technological University_ with a degree in _"finance and credit"_.
+   After that, he entered the magistracy and in 2019, at the same university, **_received a master's degree in economic sciences in the specialty "Management in socio-economic systems"_**.
+8. My level of English is now at the A2 level, but I am constantly developing it, attending courses and watching TV series and films in English with Russian subtitles.
