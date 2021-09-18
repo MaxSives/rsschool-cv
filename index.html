@@ -12,6 +12,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </head>
   <body>
     <div class="page__wrap">
@@ -159,6 +168,54 @@
               TV series and films in English with Russian subtitles.</em
             >
           </p>
+          <h2 class="section-title">My projects</h2>
+          <ol class="info__list">
+            <li class="info__item">
+              Wack-A-Mole
+
+              <ul class="sub__list">
+                <li class="item">
+                  Link:
+                  <a
+                    href="https://rolling-scopes-school.github.io/maxsives-JSFEPRESCHOOL/whack-a-mole/"
+                    target="_blank"
+                    aria-label="link to https://rolling-scopes-school.github.io/maxsives-JSFEPRESCHOOL/whack-a-mole/"
+                    >Play!</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="info__item">
+              Drum Kit
+
+              <ul class="sub__list">
+                <li class="item">
+                  Link:
+                  <a
+                    href="https://rolling-scopes-school.github.io/maxsives-JSFEPRESCHOOL/drum-kit/"
+                    target="_blank"
+                    aria-label="link to https://rolling-scopes-school.github.io/maxsives-JSFEPRESCHOOL/drum-kit/"
+                    >Play!</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="info__item">
+              Museum stage0
+
+              <ul class="sub__list">
+                <li class="item">
+                  Link:
+                  <a
+                    href="https://rolling-scopes-school.github.io/maxsives-JSFEPRESCHOOL/museum/"
+                    target="_blank"
+                    aria-label="link to https://rolling-scopes-school.github.io/maxsives-JSFEPRESCHOOL/museum/"
+                    >Watch!</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ol>
         </section>
       </main>
 
@@ -178,32 +235,35 @@
         <blockquote>
           <p>Guess the Number mini-game:</p>
         </blockquote>
-
+        <pre>
         <code class="exaple__code">
-          randomValue = Math.floor(Math.random() * 101); let pop = 0;<br />
+          randomValue = Math.floor(Math.random() * 101); 
+          let pop = 0;
 
-          alert("Отгадай число от 0 до 100");<br />
-          while (true)<br />
-          { pop++; let value = prompt( "Угадай число. ВВеди значение или введи
-          стоп для завершения");<br />
-          if (value == "стоп")<br />
-          { break; }<br />
-          if (value > randomValue)<br />
-          {<br />
-          alert(`Загаданное число меньше чем ${value}`);<br />
-          }<br />
-          else if (value &lt; randomValue)<br />
-          {<br />
-          alert(`Загаданное число больше чем ${value}`);<br />
-          }<br />
-          if (value == randomValue)<br />
-          {<br />
-          alert( `Угадал, правильное значение ${randomValue}. Угадал с ${pop}
-          попытки` );<br />
-          break;<br />
-          }<br />
-          }<br />
+          alert("Отгадай число от 0 до 100");
+          while (true)
+          { pop++; let value = prompt( "Угадай число. Веди
+          значение или введи
+          стоп для завершения");
+          if (value == "стоп")
+          { break; }
+          if (value > randomValue)
+          {
+          alert(`Загаданное число меньше чем ${value}`);
+          }
+          else if (value &lt; randomValue)
+          {
+          alert(`Загаданное число больше чем ${value}`);
+          }
+          if (value == randomValue)
+          {
+          alert( `Угадал, правильное значение ${randomValue}. 
+          Угадал с ${pop} попытки` );
+          break;
+          }
+          }
         </code>
+      </pre>
       </aside>
       <footer class="footer">
         <div class="wrapper">
